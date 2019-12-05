@@ -1,21 +1,32 @@
-body {
-	padding-top: 67px;
-}
-
-footer {
-	padding-bottom: 25px;
-}
-
 #logo {
 	float: left;
-	width: 48px;
 }
 
-#contact-buttons {
-	text-align: center;
-	padding-top: 16px;
+.thumbnail{
+	Background-color: #FC3;
 }
 
-#social-button {
-	width: 64px;
+footer{
+	background-color: #000000;
+	width: 1904px;
+	height: 225px;
+	color: White;
+	float: left;
+	margin-top: 300px;
+}
+
+footer a{
+	color:White;
+}
+
+footer a:active{
+color:#FC3;	
+}
+
+.jumbotron{
+	background-color: #000;
+	font-style: normal;
+	font-weight: bolder;
+	color: #FC3;
+	text-decoration: underline;
 }
