@@ -83,3 +83,9 @@ ftr{
 	text-decoration: none;
 	border: solid;
 }
+
+.royalty:hover{
+	Background-color:#6CF;
+	color:#FFF;
+	text-decoration: none;
+}
