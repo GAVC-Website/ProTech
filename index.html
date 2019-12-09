@@ -12,173 +12,152 @@
 
         <!-- Bootstrap JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        
-        <!-- Custom CSS -->
-        <link type="text/css" rel="stylesheet" href="style.css" />
-        
+		
         <!-- Title -->
         <title>ProTech: The Pros at Protecting Your Tech!</title>
+        
+        <!-- Custom CSS -->
+        <link href="style.css" type="text/css" rel="stylesheet">
         
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico" />
         
-        
-        
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-
-<script type="text/javascript" src="jquery.magnifier.js">
-
-/***********************************************
-* jQuery Image Magnify- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-* Please keep this notice intact
-* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-***********************************************/
-
-</script>
-        
-        
     </head>
     <body>
-    	<div class="container">
-            <nav class="navbar navbar-inverse navbar-fixed-top">
+    	<div class="container-fluid">
+            <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-md">
                 <div class="container-fluid">
-                	<span id="logo">
-                    	<img src="images/logo-md.png">
+                	<span id="logo" style="float: left">
+                    	<a href="index.html">
+                    		<img src="images/logo-md.png" width="48px">
+                        </a>
                     </span>
                     <div class="navbar-header">
                         <a class="navbar-brand" href="index.html" style="margin-left: 0px;">PROTECH</a>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
-                      <li class="active"><a href="index.html">HOME</a></li>
-                      <li><a href="services.html">SERVICES</a></li>
-                      <li><a href="contact.html">CONTACT</a></li>
-                      <li><a href="about.html">ABOUT</a></li>
+                    	<li class="active"><a href="index.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
                     </ul>
                 </div>
             </nav>
-            <content>
-            	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-                
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner">
-                    <div class="item active">
-                      <img src="index-images/hacking.jpg" alt="Hacking">
+            <div id="slideshow">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>
+                    
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item active">
+                          <img src="index-images/hacking.jpg" alt="Hacking">
+                        </div>
+                    
+                        <div class="item">
+                          <img src="index-images/key.jpg" alt="Key">
+                        </div>
+                    
+                        <div class="item">
+                          <img src="index-images/fingerprint.jpg" alt="Fingerprint">
+                        </div>
+                      </div>
+                    
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                     </div>
-                
-                    <div class="item">
-                      <img src="index-images/key.jpg" alt="Key">
-                    </div>
-                
-                    <div class="item">
-                      <img src="index-images/fingerprint.jpg" alt="New York">
-                    </div>
-                  </div>
-                
-                  <!-- Left and right controls -->
-                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                <div class="container marketing">
+            </div>
+            
+            <div id="welcome-to-protech" class="text-center">
+            	<div class="jumbotron" id="heading">
+                	<h1>Welcome to ProTech!</h1>
                 </div>
-        	</content>
-		
-  <div class="container text-center">
- 	<div class="jumbotron"><h1>Welcome to Protech</h1></div>
-   <div class="row">
-   <div class="col-md-4 col-sm-6">
-   <div class="thumbnail "><img src="index-images/download (18).jfif" width="299" height="168">
-   <div class="caption">
-   <h3>Worried about Malicious Hackers?</h3>
-   <p> It's perfectly natural to wonder about whether your data truly is safe from hackers on the "cloud". Well worry no more with Protech! You can trust in us to fend of any hackers seeking to pry  in your business.</p>
-   </div>
-   </div>
-   </div>
-     <div class="col-md-4 col-sm-6">
-   <div class="thumbnail"><img src="index-images/images (8).jfif" width="275" height="183">
-   <div class="caption">
-   <h3>You can trust us!</h3>
-   <p> We've been an established company since 1919, this guarantees everything we offer you is quality and that you can rely on us. John Smith in Ulaanbaatar says "This is the best web safety company out there"</p>
-  
-   </div>
-  </div>
-  </div>
-  <div class="col-md-4 col-sm-6">
-   <div class="thumbnail"><img src="index-images/download (19).jfif" width="275" height="183">
-   <div class="caption">
-   <h3>We're Professional</h3>
-   <p>We  can guarantee that every one of our employees are experts in their field to insure that you always get the professional help you deserve. You can be sure we're professional, it's in the name!</p>
-   
- 
-  
-     
-  </div>
-
-  
-  </div>
-  
-   </div>
-   </div>
-   
-   <div class="jumbotron">
-   
-   <h1> Images </h1>
-   </div>
-   
-     <div class="row">
-
-  <div class="col-xs-6 col-md-3">
-    <div class="thumbnail">
-      <img src="index-images/server-1569185.jpg" width="3840" height="2160" class="magnify"><div class="caption">The Servers at our Headquarters in Murmansk, Russia</div>
-    </div>
-  </div>
-  
-  <div class="col-xs-6 col-md-3">
-   <div class="thumbnail">
-      <img src="index-images/images (9).jfif" width="275" height="183" class="magnify"><div class="caption">Our security experts discussing cyber security on a tech pannel</div>
-    </div>
-  </div>
-  
-  <div class="col-xs-6 col-md-3">
-   <div class="thumbnail">
-    <img src="index-images/Admin-edit.jpg" width="300" height="200" class="magnify">
-    <div class="caption">Our Employee of the Year: Erin Aaron</div>
-   </div>
-  </div>
-  
-  
-  <div class="col-xs-6 col-md-3">
-     <div class="thumbnail">
-      <img src="index-images/old guy.jpg" width="288" height="175" class="magnify">
-      <div class="caption"> Our founder: Pattrick George Washington Harris Wilson</div>
-    </div>
-  </div>
-
-  </div> 
-   
-   </div>
-		
-		<div class="container-fluid">
-            <div class="row">
-            <div class="jumbotron ftr">
-    <a href="index.html">|  Home  </a>
-    <a href="#">| Services </a>
-    <a href="#">| Contact </a>
-    <a href="#">| About |</a>
+                <div class="row">
+                	<div class="col-md-4 col-sm-12">
+                    	<div class="thumbnail">
+                        	<a href="index-images/hacker-with-glasses.jpg" target="_blank"><img src="index-images/hacker-with-glasses.jpg" id="thumbnail-md"></a>
+                            <h2>Worried about Malicious Hackers?</h2>
+                            <p>It's perfectly natural to wonder about whether your data truly is safe from hackers on the "cloud". Well worry no more with ProTech! You can trust in us to fend of any hackers seeking to pry in your business.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                    	<div class="thumbnail">
+                        	<a href="index-images/lock-with-keyboard.jpg" target="_blank"><img src="index-images/lock-with-keyboard.jpg" id="thumbnail-md"></a>
+                            <h2>You can trust us!</h2>
+                            <p>It's perfectly natural to wonder about whether your data truly is safe from hackers on the "cloud". Well worry no more with ProTech! You can trust in us to fend of any hackers seeking to pry in your business.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12" id="thumbnail">
+                    	<div class="thumbnail">
+                        	<a href="index-images/inside-of-computer.jpg" target="_blank"><img src="index-images/inside-of-computer.jpg" id="thumbnail-md"></a>
+                            <h2>We're Professional</h2>
+                            <p>It's perfectly natural to wonder about whether your data truly is safe from hackers on the "cloud". Well worry no more with ProTech! You can trust in us to fend of any hackers seeking to pry in your business.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            </div>
-         </div>   
-   </div>
-   
+            
+            <div id="images" class="text-center">
+            	<div class="jumbotron" id="heading">
+                	<h1>Images</h1>
+                </div>
+            	<div class="row">
+                	<div class="col-md-3 col-sm-6">
+                    	<div class="thumbnail">
+                        	<a href="index-images/servers.jpg" target="_blank"><img src="index-images/servers.jpg" id="thumbnail"></a>
+                            <p>The Servers at our Headquarters in Murmansk, Russia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                    	<div class="thumbnail">
+                        	<a href="index-images/tech-panel.jpg" target="_blank"><img src="index-images/tech-panel.jpg" id="thumbnail"></a>
+                            <p>Our security experts discussing cyber security on a tech panel</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                    	<div class="thumbnail">
+                        	<a href="index-images/erin-aaron.jpg" target="_blank"><img src="index-images/erin-aaron.jpg" id="thumbnail"></a>
+                            <p>Our Employee of the Year: Erin Aaron</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                    	<div class="thumbnail">
+                        	<a href="index-images/founder.png" target="_blank"><img src="index-images/founder.png" id="thumbnail"></a>
+                            <p>Our founder: Pattrick George Washington Harris Wilson</p>
+                        </div>
+                    </div>
+                </div>
+
+            <footer>
+                <hr>
+				<div class="row">
+                	<div class="col-md-6 col-sm-12 text-center">
+                    	<p class="float-right"><a href="index.html">Home</a> &middot; <a href="services.html">Services</a> &middot; <a href="contact.html">Contact</a> &middot; <a href="about.html">About</a></p>
+                    	<p>&copy; 2019 ProTech, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                	</div>
+                    <div class="col-md-2 col-sm-4">
+                        <div id="social-button"><a href="https://www.twitter.com/" target="_blank"><img id="social-button" src="images/twitter.png"></div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div id="social-button"><a href="https://www.facebook.com/" target="_blank"><img id="social-button" src="images/facebook.png"></div>
+                    </div>
+                    <div class="col-md-2 col-sm-4">
+                        <div id="social-button"><a href="https://www.youtube.com/" target="_blank"><img id="social-button" src="images/youtube.png"></div>
+                    </div>
+                </div>
+            </footer>
+		</div>
     </body>
 </html>
