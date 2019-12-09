@@ -1,39 +1,46 @@
 #logo {
 	float: left;
+	width: 48px;
 }
 
 .thumbnail{
 	Background-color: #FC3;
-	
+	text-align: center;
 }
 
-.thumbnail a{
-	color: #FFF;
-	height: 100px;
-}
 
-footer{
-	background-color: #000000;
-	height: 225px;
-	color: White;
-	float: left;
-	margin-top: 300px;
-}
-
-footer a{
-	color:White;
-}
-
-footer a:active{
-color:#FC3;	
-}
-
-.jumbotron{
-	background-color: #000;
+#heading{
+	background-color: black;
 	font-style: normal;
 	font-weight: bolder;
 	color: #FC3;
 	text-decoration: underline;
+	text-align: center;
+}
+
+body {
+	padding-top: 67px;
+}
+
+#contact-buttons {
+	text-align: center;
+	padding-top: 16px;
+}
+
+#social-button {
+	width: 64px;
+}
+
+#myCarousel {
+	margin-bottom: 16px;
+}
+
+footer {
+	margin-bottom: 16px;
+}
+
+#about-img {
+	width: 300px;
 }
 
 span:hover{
